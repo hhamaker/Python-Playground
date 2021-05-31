@@ -29,7 +29,6 @@ class Movie(object):
         self.Website = Website
         self.Response = Response
         
-#makes a get call to robinhood quotes to get the stock info
 def getMovie(movie):
     #don't use this too frequently as I am limited to 1000 callouts per month.
     credential = ''
